@@ -9,7 +9,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="assets/css/style.css?v=2">
 </head>
 <body>
 
@@ -37,66 +38,146 @@
 
 <main>
 
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-photo"><img src="assets/img/profile.png" alt="周姍姍 Shan-Shan Chou"></div>
-      <div>
-        <h1 class="hero-name"><span data-zh>周姍姍</span><span data-en>Shan-Shan Chou</span></h1>
-        <p class="hero-title">
-          <span data-zh>國立臺灣師範大學 幼兒與家庭科學學系 專案助理教授｜教育學博士</span>
-          <span data-en>Project Assistant Professor, Dept. of Human Development &amp; Family Studies, National Taiwan Normal University｜Ph.D. in Education</span>
+  <!-- ============ HERO ============ -->
+  <section class="home-hero">
+    <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+    <div class="container home-hero-grid">
+      <div class="home-hero-text">
+        <span class="pill reveal"><span data-zh>國立臺灣師範大學 · 幼兒與家庭科學學系</span><span data-en>NTNU · Human Development &amp; Family Studies</span></span>
+        <h1 class="home-name reveal"><span data-zh>周姍姍</span><span data-en>Shan-Shan Chou</span></h1>
+        <p class="home-hook reveal">
+          <span data-zh>從幼兒園教室，<br>走進<mark>大腦研究室</mark></span>
+          <span data-en>From the preschool classroom<br>to the <mark>brain lab</mark></span>
         </p>
-        <p class="hero-tagline">
-          <span data-zh>研究聚焦親子與師生互動、執行功能發展與大腦可塑性（fNIRS），並在師資培育現場深耕十二年，致力於教學創新與課程設計。</span>
-          <span data-en>My work sits at the intersection of parent-child and teacher-student interaction, executive function development, and brain plasticity (fNIRS) — grounded in twelve years of hands-on early childhood teacher education.</span>
+        <p class="home-title reveal">
+          <span data-zh>專案助理教授｜教育學博士</span>
+          <span data-en>Project Assistant Professor｜Ph.D. in Education</span>
         </p>
-        <div class="hero-actions">
-          <a href="research.html" class="btn btn-primary"><span data-zh>查看研究</span><span data-en>View Research</span></a>
-          <a href="assets/files/Shan-Shan_Chou_CV_OnePage.docx" class="btn btn-ghost"><span data-zh>下載履歷（一頁版）</span><span data-en>Download CV (One-Page)</span></a>
-          <a href="contact.html" class="btn btn-ghost"><span data-zh>聯絡我</span><span data-en>Get in Touch</span></a>
+        <p class="home-tagline reveal">
+          <span data-zh>我研究親子與師生互動如何影響孩子的執行功能與大腦發展（fNIRS），也在師資培育現場，陪準幼教老師把理論帶進真實的教室。</span>
+          <span data-en>I study how parent-child and teacher-student interaction shape children's executive function and brain development (fNIRS) — and I help future preschool teachers carry theory into real classrooms.</span>
+        </p>
+        <div class="hero-actions reveal">
+          <a href="research.html" class="btn btn-primary"><span data-zh>看看我的研究 →</span><span data-en>Explore my research →</span></a>
+          <a href="contact.html" class="btn btn-ghost"><span data-zh>聯絡我</span><span data-en>Get in touch</span></a>
+          <a href="assets/files/Shan-Shan_Chou_CV_OnePage.docx" class="btn btn-ghost"><span data-zh>下載履歷（一頁版）</span><span data-en>CV (one page)</span></a>
         </div>
       </div>
-    </div>
-  </section>
 
-  <section class="alt">
-    <div class="container">
-      <div class="stat-row">
-        <div class="stat"><span class="num">12+</span><span class="label"><span data-zh>年幼教實務經驗</span><span data-en>Years in ECE Practice</span></span></div>
-        <div class="stat"><span class="num">3</span><span class="label"><span data-zh>年臺師大專任教學</span><span data-en>Years Full-time at NTNU</span></span></div>
-        <div class="stat"><span class="num">5</span><span class="label"><span data-zh>篇學術期刊著作</span><span data-en>Journal Publications</span></span></div>
-        <div class="stat"><span class="num">13</span><span class="label"><span data-zh>場國際研討會發表</span><span data-en>Conference Presentations</span></span></div>
+      <div class="home-hero-visual reveal">
+        <div class="photo-frame"><img src="assets/img/profile.png" alt="周姍姍 Shan-Shan Chou"></div>
+        <span class="float-chip c1">🧠 <span data-zh>fNIRS 腦科學</span><span data-en>fNIRS</span></span>
+        <span class="float-chip c2">📚 <span data-zh>師資培育</span><span data-en>Teacher Education</span></span>
+        <span class="float-chip c3">🧸 <span data-zh>幼兒教育</span><span data-en>Early Childhood</span></span>
       </div>
     </div>
   </section>
 
+  <!-- ============ STATS ============ -->
+  <section class="stats-band">
+    <div class="container">
+      <div class="stat-row">
+        <div class="stat reveal"><span class="num" data-count="12" data-suffix="+">12+</span><span class="label"><span data-zh>年幼教實務經驗</span><span data-en>Years in ECE Practice</span></span></div>
+        <div class="stat reveal"><span class="num" data-count="3">3</span><span class="label"><span data-zh>年臺師大專任教學</span><span data-en>Years Full-time at NTNU</span></span></div>
+        <div class="stat reveal"><span class="num" data-count="5">5</span><span class="label"><span data-zh>篇學術期刊著作</span><span data-en>Journal Publications</span></span></div>
+        <div class="stat reveal"><span class="num" data-count="13">13</span><span class="label"><span data-zh>場國際研討會發表</span><span data-en>Conference Presentations</span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TWO TRACKS ============ -->
   <section>
     <div class="container">
-      <span class="eyebrow"><span data-zh>關於我</span><span data-en>About</span></span>
-      <h2><span data-zh>從幼兒園教室到研究實驗室</span><span data-en>From the Preschool Classroom to the Research Lab</span></h2>
-      <div class="prose">
+      <div class="center reveal">
+        <span class="eyebrow"><span data-zh>我在做的兩件事</span><span data-en>What I Do</span></span>
+        <h2><span data-zh>腦科學研究 × 教學實踐</span><span data-en>Brain Science Research × Teaching Practice</span></h2>
+      </div>
+      <div class="grid grid-2 track-grid">
+        <a href="research.html" class="track track-a reveal">
+          <div class="track-icon">🧠</div>
+          <h3><span data-zh>腦科學研究</span><span data-en>Brain Science Research</span></h3>
+          <p><span data-zh>親子與師生之間的互動品質，如何影響幼兒的執行功能與大腦發展？我以 fNIRS 功能性近紅外光譜，從大腦活化尋找答案。</span><span data-en>How does the quality of parent-child and teacher-student interaction shape children's executive function and brain development? I look for answers in brain activation using fNIRS.</span></p>
+          <span class="track-more"><span data-zh>了解研究 →</span><span data-en>Learn more →</span></span>
+        </a>
+        <a href="research.html" class="track track-b reveal">
+          <div class="track-icon">🍎</div>
+          <h3><span data-zh>教學實踐</span><span data-en>Teaching Practice</span></h3>
+          <p><span data-zh>紮根師資培育現場，以課程創新陪伴師資生從課室模擬，走向幼兒園的實地教學；多項教學實踐計畫獲得經費支持。</span><span data-en>Rooted in teacher education, I innovate curricula that guide student teachers from classroom simulation to real preschool practice; several teaching-practice projects have been funded.</span></p>
+          <span class="track-more"><span data-zh>了解教學實踐 →</span><span data-en>Learn more →</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JOURNEY ============ -->
+  <section class="alt">
+    <div class="container">
+      <div class="center reveal">
+        <span class="eyebrow"><span data-zh>我的旅程</span><span data-en>My Journey</span></span>
+        <h2><span data-zh>從教室到實驗室，再回到教室</span><span data-en>From Classroom to Lab, and Back to the Classroom</span></h2>
+      </div>
+      <ol class="journey">
+        <li class="reveal">
+          <span class="j-dot">🧸</span>
+          <span class="j-when"><span data-zh>12 年</span><span data-en>12 years</span></span>
+          <strong><span data-zh>幼教現場</span><span data-en>In the classroom</span></strong>
+          <span class="j-desc"><span data-zh>公私立幼兒園、特殊教育與國小附幼</span><span data-en>Public &amp; private kindergartens, special education, elementary-affiliated preschools</span></span>
+        </li>
+        <li class="reveal">
+          <span class="j-dot">🔬</span>
+          <span class="j-when"><span data-zh>博士班</span><span data-en>Ph.D.</span></span>
+          <strong><span data-zh>大腦研究室</span><span data-en>In the lab</span></strong>
+          <span class="j-desc"><span data-zh>嬰幼兒大腦發展與學習實驗室，以 fNIRS 探索親子互動</span><span data-en>Infant Brain Development &amp; Learning Lab, studying parent-child interaction with fNIRS</span></span>
+        </li>
+        <li class="reveal">
+          <span class="j-dot">🎓</span>
+          <span class="j-when">2023</span>
+          <strong><span data-zh>臺師大任教</span><span data-en>Joined NTNU</span></strong>
+          <span class="j-desc"><span data-zh>投入師資培育、課程設計與實習指導</span><span data-en>Teacher education, curriculum design, practicum supervision</span></span>
+        </li>
+        <li class="reveal">
+          <span class="j-dot">🌱</span>
+          <span class="j-when">2026.08</span>
+          <strong><span data-zh>專案助理教授</span><span data-en>Project Assistant Professor</span></strong>
+          <span class="j-desc"><span data-zh>把互動研究延伸到師生關係與大腦發展</span><span data-en>Extending interaction research to teacher-student relationships and the brain</span></span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section>
+    <div class="container about-grid">
+      <div class="reveal">
+        <span class="eyebrow"><span data-zh>關於我</span><span data-en>About</span></span>
+        <h2><span data-zh>以幼兒為本，讓研究走進現場</span><span data-en>Child-centered, Research Meets Practice</span></h2>
+        <p class="pull-quote"><span data-zh>理論 × 實務 × 反思的師資專業建構</span><span data-en>Building teacher professionalism through theory × practice × reflection</span></p>
+      </div>
+      <div class="prose reveal">
         <p data-zh>我是周姍姍，國立臺灣師範大學幼兒與家庭科學學系專案助理教授，教育學博士。十二年來，我橫跨公私立幼兒園、特殊教育與國小附設幼兒園現場，累積豐富的教學實務與行政經驗；2023 年起於臺師大任教，並於 2026 年 8 月獲聘為專案助理教授，持續投入師資培育、課程設計與教育實習指導工作。</p>
         <p data-en>I am Shan-Shan Chou, a Project Assistant Professor in the Department of Human Development and Family Studies at National Taiwan Normal University (NTNU), and I hold a Ph.D. in Education. Over twelve years, I worked across public and private kindergartens, special-education settings, and elementary-affiliated preschools, building deep practical and administrative experience. I have taught at NTNU since 2023 and was appointed Project Assistant Professor in August 2026, continuing my work in teacher training, curriculum design, and student-teaching supervision.</p>
 
-        <p data-zh>我重視「幼兒為本」的教學設計，擅長以創意結合生活經驗與 STEM 理念，推動課程教育化、多元化與趣味化。我目前教授《幼兒教保概論》、《幼兒教育教材教法》、《幼兒教育課程設計》、《嬰幼兒行為觀察》等核心必修課程，並擔任教育實習指導教師，協助師資生從課室模擬走向幼兒園實地教學。</p>
-        <p data-en>My teaching centers the child as the starting point for curriculum design. I enjoy weaving lived experience and STEM thinking into playful, multidisciplinary lessons. I currently teach core courses including Introduction to Early Childhood Care and Education, Materials and Methods for Early Childhood Education, Early Childhood Curriculum Design, and Infant &amp; Toddler Behavior Observation, and I supervise student teachers moving from classroom simulation into real kindergarten practicum.</p>
+        <details class="more">
+          <summary><span data-zh>閱讀完整簡介</span><span data-en>Read the full bio</span></summary>
 
-        <p data-zh>在博士攻讀期間，我加入王馨敏教授創立的「嬰幼兒大腦發展與學習實驗室」，聚焦早期親子互動品質與執行功能發展之關聯性，並運用功能性近紅外光譜（fNIRS）技術，探索嬰兒期正向父母行為對兒童前額葉活化的潛在影響。相關成果發表於《教育科學研究期刊》（TSSCI）與《人類發展與家庭學報》，並於芬蘭、馬來西亞及國內多場國際學術研討會發表。</p>
-        <p data-en>During my doctoral studies, I joined the Infant Brain Development and Learning Lab founded by Professor Hsin-Min Wang, focusing on how early parent-child interaction quality relates to executive function development, using functional near-infrared spectroscopy (fNIRS) to explore how positive parental behavior in infancy shapes children's prefrontal cortex activation. This work has been published in the Journal of Research in Education Sciences (TSSCI) and the Journal of Human Development and Family Studies, and presented at conferences in Finland, Malaysia, and across Taiwan.</p>
+          <p data-zh>我重視「幼兒為本」的教學設計，擅長以創意結合生活經驗與 STEM 理念，推動課程教育化、多元化與趣味化。我目前教授《幼兒教保概論》、《幼兒教育教材教法》、《幼兒教育課程設計》、《嬰幼兒行為觀察》等核心必修課程，並擔任教育實習指導教師，協助師資生從課室模擬走向幼兒園實地教學。</p>
+          <p data-en>My teaching centers the child as the starting point for curriculum design. I enjoy weaving lived experience and STEM thinking into playful, multidisciplinary lessons. I currently teach core courses including Introduction to Early Childhood Care and Education, Materials and Methods for Early Childhood Education, Early Childhood Curriculum Design, and Infant &amp; Toddler Behavior Observation, and I supervise student teachers moving from classroom simulation into real kindergarten practicum.</p>
 
-        <p class="pull-quote"><span data-zh>教學理念核心：理論 × 實務 × 反思的師資專業建構</span><span data-en>Teaching philosophy: building professional competence through theory × practice × reflection</span></p>
+          <p data-zh>在博士攻讀期間，我加入王馨敏教授創立的「嬰幼兒大腦發展與學習實驗室」，聚焦早期親子互動品質與執行功能發展之關聯性，並運用功能性近紅外光譜（fNIRS）技術，探索嬰兒期正向父母行為對兒童前額葉活化的潛在影響。相關成果發表於《教育科學研究期刊》（TSSCI）與《人類發展與家庭學報》，並於芬蘭、馬來西亞及國內多場國際學術研討會發表。</p>
+          <p data-en>During my doctoral studies, I joined the Infant Brain Development and Learning Lab founded by Professor Hsin-Min Wang, focusing on how early parent-child interaction quality relates to executive function development, using functional near-infrared spectroscopy (fNIRS) to explore how positive parental behavior in infancy shapes children's prefrontal cortex activation. This work has been published in the Journal of Research in Education Sciences (TSSCI) and the Journal of Human Development and Family Studies, and presented at conferences in Finland, Malaysia, and across Taiwan.</p>
 
-        <p data-zh>展望未來，我將持續結合幼教現場的實務經驗與學術研究的紮實訓練，深化教學創新與課程發展，並將研究視野從親子互動，延伸至師資培育現場中的師生互動與大腦發展，推動早期教育中互動關係與發展支持的知識應用。</p>
-        <p data-en>Looking ahead, I aim to keep bridging hands-on early childhood practice with rigorous academic research — deepening teaching innovation and curriculum development while extending my research lens from parent-child interaction to teacher-student interaction and brain development within teacher education, so this knowledge can translate into real support for early learning.</p>
+          <p data-zh>展望未來，我將持續結合幼教現場的實務經驗與學術研究的紮實訓練，深化教學創新與課程發展，並將研究視野從親子互動，延伸至師資培育現場中的師生互動與大腦發展，推動早期教育中互動關係與發展支持的知識應用。</p>
+          <p data-en>Looking ahead, I aim to keep bridging hands-on early childhood practice with rigorous academic research — deepening teaching innovation and curriculum development while extending my research lens from parent-child interaction to teacher-student interaction and brain development within teacher education, so this knowledge can translate into real support for early learning.</p>
+        </details>
       </div>
     </div>
   </section>
 
+  <!-- ============ INTERESTS ============ -->
   <section class="alt">
-    <div class="container">
-      <span class="eyebrow"><span data-zh>研究專長</span><span data-en>Research Interests</span></span>
-      <h2><span data-zh>親子與師生互動 × 執行功能 × 大腦發展</span><span data-en>Parent-Child &amp; Teacher-Student Interaction × Executive Function × Brain Development</span></h2>
-      <div class="tags">
+    <div class="container center">
+      <span class="eyebrow reveal"><span data-zh>研究專長</span><span data-en>Research Interests</span></span>
+      <div class="tags tags-center reveal">
         <span class="tag" data-zh>幼兒教育課程與教學</span><span class="tag" data-en>Early Childhood Curriculum &amp; Instruction</span>
         <span class="tag" data-zh>師資培育與課程設計</span><span class="tag" data-en>Teacher Education &amp; Curriculum Design</span>
         <span class="tag" data-zh>親子互動與幼兒發展</span><span class="tag" data-en>Parent-Child Interaction &amp; Child Development</span>
@@ -107,25 +188,30 @@
     </div>
   </section>
 
+  <!-- ============ EXPLORE ============ -->
   <section>
     <div class="container">
-      <div class="grid grid-3">
-        <a href="research.html" class="card">
-          <div class="icon">🧠</div>
-          <h3><span data-zh>研究</span><span data-en>Research</span></h3>
-          <p><span data-zh>fNIRS 腦科學研究、研究計畫與學術發表脈絡。</span><span data-en>fNIRS research, funded projects, and dissemination.</span></p>
-        </a>
-        <a href="teaching.html" class="card">
-          <div class="icon">📚</div>
-          <h3><span data-zh>教學</span><span data-en>Teaching</span></h3>
-          <p><span data-zh>師資培育核心課程、教學理念與指導成果。</span><span data-en>Core teacher-education courses, philosophy, and student outcomes.</span></p>
-        </a>
-        <a href="publications.html" class="card">
-          <div class="icon">📝</div>
-          <h3><span data-zh>著作</span><span data-en>Publications</span></h3>
-          <p><span data-zh>期刊論文、專書論文與研討會發表全紀錄。</span><span data-en>Journal articles, book chapters, and conference papers.</span></p>
-        </a>
+      <div class="center reveal">
+        <span class="eyebrow"><span data-zh>繼續探索</span><span data-en>Explore</span></span>
+        <h2><span data-zh>你想從哪裡開始？</span><span data-en>Where would you like to start?</span></h2>
       </div>
+      <div class="grid grid-3 explore-grid">
+        <a href="research.html" class="card explore reveal"><div class="icon ic-garnet">🧠</div><h3><span data-zh>研究</span><span data-en>Research</span></h3><p><span data-zh>腦科學研究與教學實踐研究計畫。</span><span data-en>Brain-science and teaching-practice research projects.</span></p><span class="arrow">→</span></a>
+        <a href="consulting.html" class="card explore reveal"><div class="icon ic-pine">🏛️</div><h3><span data-zh>顧問與產學</span><span data-en>Advisory</span></h3><p><span data-zh>博物館、美術館、幼兒園與政府計畫的顧問合作。</span><span data-en>Advisory work with museums, art galleries, preschools, and government projects.</span></p><span class="arrow">→</span></a>
+        <a href="teaching.html" class="card explore reveal"><div class="icon ic-brass">📚</div><h3><span data-zh>教學</span><span data-en>Teaching</span></h3><p><span data-zh>師資培育核心課程、教學理念與指導成果。</span><span data-en>Core teacher-education courses, philosophy, and student outcomes.</span></p><span class="arrow">→</span></a>
+        <a href="publications.html" class="card explore reveal"><div class="icon ic-garnet">📝</div><h3><span data-zh>著作</span><span data-en>Publications</span></h3><p><span data-zh>期刊論文、專書論文與研討會發表。</span><span data-en>Journal articles, book chapters, and conference papers.</span></p><span class="arrow">→</span></a>
+        <a href="cv.html" class="card explore reveal"><div class="icon ic-pine">🗂️</div><h3><span data-zh>完整經歷</span><span data-en>CV</span></h3><p><span data-zh>學經歷、計畫、學術服務一覽。</span><span data-en>Education, experience, grants, and service at a glance.</span></p><span class="arrow">→</span></a>
+        <a href="contact.html" class="card explore reveal"><div class="icon ic-brass">✉️</div><h3><span data-zh>聯絡</span><span data-en>Contact</span></h3><p><span data-zh>合作、邀約講座或研究交流。</span><span data-en>Collaboration, talks, and research exchange.</span></p><span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band">
+    <div class="container center reveal">
+      <h2><span data-zh>想合作、邀約講座，或聊聊孩子的大腦與學習？</span><span data-en>Interested in collaborating, inviting a talk, or chatting about children's brains and learning?</span></h2>
+      <p><span data-zh>歡迎來信，我很樂意交流。</span><span data-en>I'd love to hear from you.</span></p>
+      <a href="mailto:shanshan@ntnu.edu.tw" class="btn btn-cta"><span data-zh>寄信給我</span><span data-en>Email me</span></a>
     </div>
   </section>
 
@@ -138,6 +224,6 @@
   </div>
 </footer>
 
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js?v=2"></script>
 </body>
 </html>

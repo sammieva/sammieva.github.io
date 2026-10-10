@@ -831,3 +831,9 @@ details.more[open] summary::after{ content: " ▴"; }
   text-wrap: balance;
 }
 h1, h2, h3{ text-wrap: balance; }
+
+/* Keep long Chinese section titles on one line on wide screens */
+.section-head-wide{ max-width: none; }
+@media (min-width: 880px){
+  html[data-lang="zh"] h2.oneline{ white-space: nowrap; }
+}

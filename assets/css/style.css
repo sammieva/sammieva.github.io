@@ -816,3 +816,18 @@ details.more[open] summary::after{ content: " ▴"; }
   .float-chip{ font-size: .78rem; padding: 6px 12px; }
   .stats-band{ margin-top: -32px; }
 }
+
+/* About title */
+.about-title{
+  font-size: clamp(1.9rem, 3.6vw, 2.5rem);
+  line-height: 1.35;
+  margin-bottom: .6em;
+}
+.about-title br{ display: block; content: ""; }
+.about-grid .pull-quote{
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-top: 1.2rem;
+  text-wrap: balance;
+}
+h1, h2, h3{ text-wrap: balance; }
